@@ -12,10 +12,14 @@ header {
     margin: 0px;
 }
 
-ul {
+nav > ul {
     display: flex;
     justify-content: right;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 li a {
@@ -27,7 +31,7 @@ li a {
 
 main {
     display: flex !important;
-    width: 1200px !important;
+    width: 1000px !important;
     margin: auto;
     justify-content: space-between;
 }
@@ -61,7 +65,7 @@ section  {
 section > div > h2 {
     color: rgb(175, 50, 163);
     border-top: solid gray 1px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 section .title {
@@ -69,4 +73,42 @@ section .title {
     margin-top: 20px;
     color: rgb(175, 50, 163);
     font-size: 2rem;
+}
+
+.title {
+    color: rgb(175, 50, 163);
+}
+
+form {
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    background-color: rgba(175, 50, 163, 0.19);
+}
+
+input, textarea {
+    padding: 10px;
+    width: 95%;
+    margin: 20px auto !important;
+    border: none;
+}
+
+form > button {
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    text-align: right;
+    border: solid rgb(175, 50, 163) 1px;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+button:hover {
+    border: solid rgb(175, 50, 163) 1px;
+    background-color: white;
+    color: rgb(175, 50, 163);
+    cursor: pointer;
 }

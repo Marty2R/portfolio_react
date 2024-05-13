@@ -44,6 +44,14 @@ export default function About() {
                 lorem ispum lorem ispum lorem ispum
               </p>
             </div>
+            <h2>My passions</h2>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+            </ul>
           </div>
         </section>
       </main>

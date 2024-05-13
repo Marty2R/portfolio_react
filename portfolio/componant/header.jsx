@@ -2,7 +2,9 @@ function Header() {
   return (
     <>
       <header>
-        <p className="logo">Nooman Studio</p>
+        <a href="/">
+          <p className="logo">Nooman Studio</p>
+        </a>
         <nav>
           <ul>
             <li>
