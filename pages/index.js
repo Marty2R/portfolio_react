@@ -1,5 +1,5 @@
-import Img from "@/componant/Img.jsx";
-import Header from "@/componant/Header.jsx";
+import Img from "@/componants/Img.jsx";
+import Header from "@/componants/Header.jsx";
 
 export default function Home() {
   return (

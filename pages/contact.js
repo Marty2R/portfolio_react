@@ -1,4 +1,4 @@
-import Header from "@/componant/Header.jsx";
+import Header from "@/componants/Header.jsx";
 
 export default function About() {
   return (
