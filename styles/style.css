@@ -31,7 +31,7 @@ li a {
 
 main {
     display: flex !important;
-    width: 1000px !important;
+    max-width: 1000px !important;
     margin: auto;
     justify-content: space-between;
 }
@@ -84,7 +84,7 @@ form {
     flex-direction: column;
     padding: 20px;
     border-radius: 5px;
-    width: 500px;
+    max-width: 500px;
     background-color: rgba(175, 50, 163, 0.19);
 }
 
